@@ -1,0 +1,18 @@
+GSP(GIVENSTATE,GIVEN GOAL,ACTIONS)
+Plan<----emptystack
+stack<---------PushStack(Given Goal,stack)
+while not Empty(Stack)
+while not empty(stack)
+do Right <------Pop(Stack)
+If Y<----------actions
+Then plan<----------(Plan *y)
+Else If x is a conjunct of goal predicates z
+Then SolveFlag<----------True
+For Each g(z
+then solvedFlag=False
+Then PushSet(Stack,Unsatisfied Goal Predicates)
+If Solved Choose Action that achieves Z
+if no such action exists then return failure
+Push(a,stack)
+Push Set(PreConditions(a))
+Return
